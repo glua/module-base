@@ -1,11 +1,22 @@
+local target_suffixes = {
+
+	bsd       = "linux",
+	linux     = "linux",
+	solaris   = "linux",
+	windows   = "win32",
+	macosx    = "osx"  ,
+
+}
+
+
 solution "Example"
 	language		"C++"
 	location		"project"
-	targetdir		"bin"
 
-	if os.get() == "windows" then
-		architecture	"x86"
-	end
+	targetdir		"bin"
+	targetprefix		"gm_"
+	targetextension		".dll"
+	targetsuffix		( "_" .. target_suffixes[ os.get() ] )
 
 	--
 	-- Statically link the C-Runtime to reduce dependencies needed to run our module
@@ -18,7 +29,7 @@ solution "Example"
 		flags		"symbols"
 		optimize	"On"
 
-	project "gm_example"
+	project "example"
 		kind	"SharedLib"
 		include	"LuaInterface"
 

@@ -5,9 +5,9 @@ echo "Dependencies: GIT, PREMAKE5, MAKE."
 echo
 
 # Check if all dependencies are present
-type git >/dev/null 2>&1 || { echo >&2 "git is not installed."; exit 1; }
+type git >/dev/null      2>&1 || { echo >&2 "git is not installed.";      exit 1; }
 type premake5 >/dev/null 2>&1 || { echo >&2 "premake5 is not installed."; exit 1; }
-type make >/dev/null 2>&1 || { echo >&2 "make is not installed."; exit 1; }
+type make >/dev/null     2>&1 || { echo >&2 "make is not installed.";     exit 1; }
 
 # Hacky way to ensure we've got a git repository & submodules at our disposal
 git init
