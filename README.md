@@ -1,4 +1,4 @@
-# Garry's Mod 3rd Party Binary Module Base
+# Garry's Mod Binary Module Base
 This project allows 3rd party binary modules to be easily built by end-users, developers and build servers.
 
 Examples of usage can be found at: https://github.com/glua/gm_stringtable, (TODO: List more here).
