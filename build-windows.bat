@@ -22,6 +22,10 @@ IF DEFINED VS140COMNTOOLS (
 	echo Preparing for build with Visual Studio 2012.
 	premake5 vs2012
 	CALL "%VS110COMNTOOLS%VsMSBuildCmd.bat"
+) ELSE IF DEFINED VS100COMNTOOLS (
+	echo Preparing for build with Visual Studio 2010.
+	premake5 vs2010
+	CALL "%VS100COMNTOOLS%VsMSBuildCmd.bat"
 ) ELSE IF DEFINED VS90COMNTOOLS (
 	echo Preparing for build with Visual Studio 2008.
 	premake5 vs2008
