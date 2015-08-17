@@ -9,6 +9,7 @@ Examples of usage can be found at: https://github.com/glua/gm_stringtable, (TODO
 | [Git](https://git-scm.com/download/win) | [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) | [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) |
 | [Visual Studio](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)* | GNU Make | TODO |
 | [Premake5](https://github.com/glua/module-base/wiki/Installing-Premake5) | [Premake5](https://github.com/glua/module-base/wiki/Installing-Premake5) | [Premake5](https://github.com/glua/module-base/wiki/Installing-Premake5) |
+| | g++ | |
 <sub>*Visual Studio must be of version 2013 or 2015.</sub>
 
 ## Compiling a Module
