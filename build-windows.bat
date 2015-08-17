@@ -1,7 +1,7 @@
 @echo off
 
 echo Building Module.
-echo Dependencies: GIT, PREMAKE5, VISUAL STUDIO 2015/2013/2012/2008.
+echo Dependencies: GIT, PREMAKE5, VISUAL STUDIO 2015/2013/2012/2010/2008.
 echo.
 
 :: Hacky way to ensure we've got a git repository & submodules at our disposal
