@@ -2,7 +2,10 @@ solution "Example"
 	language		"C++"
 	location		"project"
 	targetdir		"bin"
-	architecture	"x86"
+
+	if os.get() == "windows" then
+		architecture	"x86"
+	end
 
 	--
 	-- Statically link the C-Runtime to reduce dependencies needed to run our module
