@@ -16,7 +16,7 @@ solution "Example"
 		optimize	"On"
 
 	project "gm_example"
-		kin	"SharedLib"
+		kind	"SharedLib"
 		includ	"LuaInterface"
 
 		files { "src/**.cpp", "src/**.h" }
