@@ -17,6 +17,6 @@ solution "Example"
 
 	project "gm_example"
 		kind	"SharedLib"
-		includ	"LuaInterface"
+		include	"LuaInterface"
 
 		files { "src/**.cpp", "src/**.h" }
