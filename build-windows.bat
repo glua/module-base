@@ -13,11 +13,11 @@ echo.
 IF DEFINED VS140COMNTOOLS (
 	echo Preparing for build with Visual Studio 2015.
 	premake5 vs2015
-	CALL "%VS140COMNTOOLS%VsMSBuildCmd.bat"
+	CALL "%VS140COMNTOOLS%VSDevCmd.bat"
 ) ELSE IF DEFINED VS120COMNTOOLS (
 	echo Preparing for build with Visual Studio 2013.
 	premake5 vs2013
-	CALL "%VS120COMNTOOLS%VsMSBuildCmd.bat"
+	CALL "%VS120COMNTOOLS%VSDevCmd.bat"
 ) ELSE (
 	echo Failed to detect Visual Studio installation.
 	timeout 5
