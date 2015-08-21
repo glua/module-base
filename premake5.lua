@@ -1,4 +1,4 @@
-solution "Example"
+solution "my_module"
 	language		"C++"
 	location		"project"
 	targetdir		"bin"
@@ -14,7 +14,7 @@ solution "Example"
 		flags		"symbols"
 		optimize	"On"
 
-	project "example"
+	project "my_module"
 		kind	"SharedLib"
 		include	"LuaInterface"
 
