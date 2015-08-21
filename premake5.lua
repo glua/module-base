@@ -11,8 +11,8 @@ solution "my_module"
 	configurations { "Release" }
 
 	configuration "Release"
-		flags		"symbols"
-		optimize	"On"
+		flags		"symbols"	-- Generate debugging information
+		optimize	"On"		-- Optimize the build output for size and speed
 
 	project "my_module"
 		kind	"SharedLib"
