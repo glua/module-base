@@ -7,6 +7,8 @@ solution "my_module"
 	-- Statically link the C-Runtime to reduce dependencies needed to run our module
 	--
 	flags "StaticRuntime"
+	
+	architecture "x86"
 
 	configurations { "Release" }
 
