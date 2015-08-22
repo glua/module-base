@@ -1,5 +1,6 @@
 solution "my_module"
 	language		"C++"
+	architecture	"x86"
 	location		"project"
 	targetdir		"bin"
 
